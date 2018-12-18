@@ -6,7 +6,7 @@ In order to gather information from twitter I used the tweepy API to collectivel
 dataset is gathered through searching for posts that contain a relevant keyword. 
 
 This keyword is indicated here as Love.
-public_tweets = api.search(q='Love',count = 100)
+<code> public_tweets = api.search(q='Love',count = 100) </code>
 
 ### Requirements/Dependencies
 There are some general library requirements for the project and some which are specific to individual methods.
