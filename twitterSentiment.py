@@ -4,11 +4,11 @@ from termcolor import colored
 import csv
 import matplotlib.pyplot as plt
 
-consumer_key = 'HR4EshSlrtPkE8vwe4QiGFDdL'
-consumer_secret = 'y4a1Vvag21CObVzMKxdkByXXfFDX0q06VocDaNanwGq6F8nU2B'
+consumer_key = 'INSERT_KEY_HERE'
+consumer_secret = 'INSERT_SECRET_HERE'
 
-access_token = '767856757410365440-e0p9CtDau7i8KUQHaHqu2O1dUjVBZCL'
-access_token_secret = 'rsQCh3nYPv5JuBJsZLti5xaeGjmjGrgi00nTP3UymMMa0'
+access_token = 'INSERT_KEY_HERE'
+access_token_secret = 'INSERT_SECRET_HERE'
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
